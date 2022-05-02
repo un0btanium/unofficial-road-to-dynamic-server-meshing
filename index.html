@@ -25,6 +25,34 @@
 			.floatingchat-container-wrap .floatingchat-container {
 				width: 235px;
 			}
+
+			.floatingchat-container:hover {
+				opacity: 0.8;
+			}
+
+			.spectrum-container {
+				z-index: 10000;
+				position: absolute;
+				bottom: 0px;
+				opacity: 0.8;
+			}
+
+			.spectrum-link {
+				position: relative;
+				bottom: 75px;
+				left: 16px;
+			}
+
+			.spectrum-logo {
+				width: 46px;
+				height: 46px;
+				border-radius: 100%;
+				cursor: pointer;
+			}
+
+			.spectrum-container:hover {
+				opacity: 0.7;
+			}
 		</style>
 	</head>
 	<html>
@@ -47,5 +75,17 @@
 				'floating-chat.donateButton.text-color': '#323842'
 			});
 		</script>
+		<div class="spectrum-container">
+			<div class="test"></div>
+			<a 
+				class="spectrum-link"
+				href="https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/road-to-dynamic-server-meshing-tech-overview-with-"
+			>
+				<img
+					class="spectrum-logo"
+					src="spectrumlogo.png"
+				/>
+			</a>
+		</div>
 	</body>
 </html>
