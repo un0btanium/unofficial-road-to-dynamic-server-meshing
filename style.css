@@ -1,0 +1,99 @@
+.floatingchat-container-wrap {
+	bottom: 48px !important;
+	left: 0px !important;
+}
+
+.floatingchat-container-wrap .floatingchat-container {
+	opacity: 0.9;
+	transform: scale(0.9);
+}
+
+.floatingchat-container:hover {
+	opacity: 1;
+}
+
+
+.floatingchat-container-wrap-mobi {
+	bottom: 48px !important;
+	left: -24px !important;
+}
+
+.floatingchat-container-wrap-mobi .floatingchat-container-mobi {
+	transform: scale(0.7);
+}
+
+
+.floating-chat-kofi-popup-iframe {
+	bottom: 100px !important;
+}
+
+.floating-chat-kofi-popup-iframe-mobi {
+	bottom: 92px !important;
+}
+
+
+.spectrum-logo-container {
+	z-index: 9999;
+	position: absolute;
+	bottom: 0px;
+	opacity: 0.8;
+}
+
+
+.spectrum-logo {
+	position: relative;
+	width: 46px;
+	height: 46px;
+	border-radius: 100%;
+	cursor: pointer;
+}
+@media only screen and (max-device-width: 1000px) {
+	.spectrum-logo {
+		bottom: 92px;
+		left: 4px;
+	}
+}
+@media only screen and (min-device-width: 1000px) {
+	.spectrum-logo {
+		bottom: 100px;
+		left: 16px;
+	}
+}
+
+.spectrum-logo-container:hover {
+	opacity: 1.0;
+}
+
+
+
+.shinytracker-logo-container {
+	z-index: 9999;
+	position: absolute;
+	bottom: 0px;
+	opacity: 0.6;
+}
+
+.shinytracker-logo {
+	position: relative;
+	width: 46px;
+	height: 46px;
+	border-radius: 100%;
+	cursor: pointer;
+}
+@media only screen and (max-device-width: 1000px) {
+	.shinytracker-logo {
+		bottom: 144px;
+		left: 4px;
+	}
+}
+@media only screen and (min-device-width: 1000px) {
+	.shinytracker-logo {
+		bottom: 100px;
+		left: 72px;
+	}
+}
+
+.shinytracker-logo-container:hover {
+	opacity: 1.0;
+}
+

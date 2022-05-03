@@ -8,6 +8,8 @@
 		<meta name="keywords" content="Star, Citizen, Server, Meshing, unobtanium, Unofficial, Road, Dynamic, Static, OCS, Object, Container, Streaming, Single, Shard">
 		<meta name="author" content="unobtanium">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="style.css">
 		
 		<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
 		
@@ -20,40 +22,6 @@
 
 			gtag('config', 'G-K2NEFSDQLX');
 		</script>
-
-		<style>
-			.floatingchat-container-wrap .floatingchat-container {
-				width: 235px;
-			}
-
-			.floatingchat-container:hover {
-				opacity: 0.8;
-			}
-
-			.spectrum-container {
-				z-index: 10000;
-				position: absolute;
-				bottom: 0px;
-				opacity: 0.8;
-			}
-
-			.spectrum-link {
-				position: relative;
-				bottom: 75px;
-				left: 16px;
-			}
-
-			.spectrum-logo {
-				width: 46px;
-				height: 46px;
-				border-radius: 100%;
-				cursor: pointer;
-			}
-
-			.spectrum-container:hover {
-				opacity: 0.7;
-			}
-		</style>
 	</head>
 	<html>
 	<body style="margin:0">
@@ -70,23 +38,30 @@
 		<script>
 			kofiWidgetOverlay.draw('unobtanium', {
 				'type': 'floating-chat',
-				'floating-chat.donateButton.text': 'Buy me a coffee? =)',
+				'floating-chat.donateButton.text': 'Coffee? =)',
 				'floating-chat.donateButton.background-color': 'rgba(252,191,71,0.8)',
 				'floating-chat.donateButton.text-color': '#323842'
 			});
 		</script>
-		<div class="spectrum-container">
-			<div class="test"></div>
-			<a 
-				class="spectrum-link"
-				href="https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/road-to-dynamic-server-meshing-tech-overview-with-"
-				target="_blank"
-			>
-				<img
-					class="spectrum-logo"
-					src="spectrumlogo.png"
-				/>
-			</a>
-		</div>
+		<a 
+			class="spectrum-logo-container"
+			href="https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/road-to-dynamic-server-meshing-tech-overview-with-"
+			target="_blank"
+		>
+			<img
+				class="spectrum-logo"
+				src="spectrum-logo.png"
+			/>
+		</a>
+		<a 
+			class="shinytracker-logo-container"
+			href="https://shinytracker.app/"
+			target="_blank"
+		>
+			<img
+				class="shinytracker-logo"
+				src="shinytracker-logo.png"
+			/>
+		</a>
 	</body>
 </html>
