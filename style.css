@@ -42,8 +42,6 @@
 
 .spectrum-logo {
 	position: relative;
-	width: 46px;
-	height: 46px;
 	border-radius: 100%;
 	cursor: pointer;
 }
@@ -51,12 +49,16 @@
 	.spectrum-logo {
 		bottom: 92px;
 		left: 4px;
+		width: 32px;
+		height: 32px;
 	}
 }
 @media only screen and (min-device-width: 1000px) {
 	.spectrum-logo {
 		bottom: 100px;
-		left: 16px;
+		left: 12px;
+		width: 46px;
+		height: 46px;
 	}
 }
 
@@ -75,21 +77,23 @@
 
 .shinytracker-logo {
 	position: relative;
-	width: 46px;
-	height: 46px;
 	border-radius: 100%;
 	cursor: pointer;
 }
 @media only screen and (max-device-width: 1000px) {
 	.shinytracker-logo {
-		bottom: 144px;
-		left: 4px;
+		bottom: 92px;
+		left: 48px;
+		width: 32px;
+		height: 32px;
 	}
 }
 @media only screen and (min-device-width: 1000px) {
 	.shinytracker-logo {
 		bottom: 100px;
 		left: 72px;
+		width: 46px;
+		height: 46px;
 	}
 }
 
@@ -97,3 +101,35 @@
 	opacity: 1.0;
 }
 
+
+
+
+.follow-me-container {
+	z-index: 9999;
+	position: absolute;
+	bottom: 0px;
+	opacity: 0.8;
+}
+
+
+.follow-me {
+	position: relative;
+	cursor: pointer;
+}
+@media only screen and (max-device-width: 1000px) {
+	.follow-me {
+		bottom: 132px;
+		left: 4px;
+		height: 32px;
+	}
+}
+@media only screen and (min-device-width: 1000px) {
+	.follow-me {
+		bottom: 158px;
+		left: 12px;
+	}
+}
+
+.follow-me-container:hover {
+	opacity: 1.0;
+}
