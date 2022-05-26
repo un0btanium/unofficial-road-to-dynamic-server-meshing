@@ -1,6 +1,12 @@
+body {
+	background-color: rgb(21, 39, 63);
+}
+
 .floatingchat-container-wrap {
 	bottom: 48px !important;
 	left: 0px !important;
+	max-height: 46px !important;
+	max-width: 156px !important;
 }
 
 .floatingchat-container-wrap .floatingchat-container {
@@ -38,7 +44,22 @@
 	bottom: 0px;
 	opacity: 0.8;
 }
-
+@media only screen and (max-device-width: 1000px) {
+	.spectrum-logo-container {
+		bottom: 92px;
+		left: 4px;
+		width: 32px;
+		height: 32px;
+	}
+}
+@media only screen and (min-device-width: 1000px) {
+	.spectrum-logo-container {
+		bottom: 100px;
+		left: 12px;
+		width: 46px;
+		height: 46px;
+	}
+}
 
 .spectrum-logo {
 	position: relative;
@@ -47,16 +68,12 @@
 }
 @media only screen and (max-device-width: 1000px) {
 	.spectrum-logo {
-		bottom: 92px;
-		left: 4px;
 		width: 32px;
 		height: 32px;
 	}
 }
 @media only screen and (min-device-width: 1000px) {
 	.spectrum-logo {
-		bottom: 100px;
-		left: 12px;
 		width: 46px;
 		height: 46px;
 	}
@@ -74,6 +91,22 @@
 	bottom: 0px;
 	opacity: 0.6;
 }
+@media only screen and (max-device-width: 1000px) {
+	.shinytracker-logo-container {
+		bottom: 92px;
+		left: 48px;
+		width: 32px;
+		height: 32px;
+	}
+}
+@media only screen and (min-device-width: 1000px) {
+	.shinytracker-logo-container {
+		bottom: 100px;
+		left: 72px;
+		width: 46px;
+		height: 46px;
+	}
+}
 
 .shinytracker-logo {
 	position: relative;
@@ -82,16 +115,12 @@
 }
 @media only screen and (max-device-width: 1000px) {
 	.shinytracker-logo {
-		bottom: 92px;
-		left: 48px;
 		width: 32px;
 		height: 32px;
 	}
 }
 @media only screen and (min-device-width: 1000px) {
 	.shinytracker-logo {
-		bottom: 100px;
-		left: 72px;
 		width: 46px;
 		height: 46px;
 	}
@@ -110,7 +139,20 @@
 	bottom: 0px;
 	opacity: 0.8;
 }
-
+@media only screen and (max-device-width: 1000px) {
+	.follow-me-container {
+		bottom: 132px;
+		left: 4px;
+		height: 32px;
+	}
+}
+@media only screen and (min-device-width: 1000px) {
+	.follow-me-container {
+		bottom: 158px;
+		left: 12px;
+		height: 42px;
+	}
+}
 
 .follow-me {
 	position: relative;
@@ -118,15 +160,7 @@
 }
 @media only screen and (max-device-width: 1000px) {
 	.follow-me {
-		bottom: 132px;
-		left: 4px;
 		height: 32px;
-	}
-}
-@media only screen and (min-device-width: 1000px) {
-	.follow-me {
-		bottom: 158px;
-		left: 12px;
 	}
 }
 
