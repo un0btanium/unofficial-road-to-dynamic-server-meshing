@@ -8,10 +8,10 @@
 		<meta name="author" content="unobtanium">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<link rel="icon" type="image/x-icon" href="./favicon/favicon.ico">
+		<link rel="icon" type="image/x-icon" href="./favicon/favicon-orange.ico">
+		<link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-orange-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-orange-16x16.png">
 		<link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
 		<link rel="manifest" href="./favicon/site.webmanifest">
 
 		<link rel="stylesheet" href="style.css">
@@ -26,6 +26,32 @@
 			gtag('js', new Date());
 
 			gtag('config', 'G-K2NEFSDQLX');
+		</script>
+		<script>
+			(function() {
+				var arrFavicon = ['favicon-blue', 'favicon-orange', 'favicon-purple'];
+				var randomFavicon = './favicon/' + arrFavicon[Math.floor(Math.random()*arrFavicon.length)]
+
+				var faviconNormal = document.createElement('link');
+				faviconNormal.type = 'image/x-icon';
+				faviconNormal.rel = 'icon';
+				faviconNormal.href = randomFavicon + '.ico';
+				document.getElementsByTagName('head')[0].appendChild(faviconNormal);
+
+				var favicon16 = document.createElement('link');
+				favicon16.type = 'image/png';
+				favicon16.sizes = '16x16';
+				favicon16.rel = 'icon';
+				favicon16.href = randomFavicon + '-16x16.png';
+				document.getElementsByTagName('head')[0].appendChild(favicon16);
+
+				var favicon32 = document.createElement('link');
+				favicon32.type = 'image/png';
+				favicon32.sizes = '32x32';
+				favicon32.rel = 'icon';
+				favicon32.href = randomFavicon + '-32x32.png';
+				document.getElementsByTagName('head')[0].appendChild(favicon32);
+			}());
 		</script>
 	</head>
 	<html>
